@@ -14,7 +14,7 @@ end)
 local player = game.Players.LocalPlayer
 
 -- Create a textbox for username input
-local usernameInput = tab1:CreateTextbox("Enter Username", "Type here...", true, function(username)
+local usernameInput = tab1:CreateTextbox("thisanalt048", "daxkidcece...", true, function(username)
     if username == player.Name then
         tab1:CreateButton("Submit", function()
             print("Wait 30 seconds") -- Print message in console
